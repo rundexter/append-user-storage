@@ -4,7 +4,7 @@ var _ = require('lodash')
 
 module.exports = _.merge({
     /*
-     * Some default settings. 
+     * Some default settings.
      *
      * You can generally leave this as is for general testing purposes.
      */
@@ -47,7 +47,7 @@ module.exports = _.merge({
     }
     , user: {
         /*
-         * Your dexter user settings should go in the env.js file and remain uncommitted.  
+         * Your dexter user settings should go in the env.js file and remain uncommitted.
          * For example:
          *
         profile: {
@@ -73,7 +73,8 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                key: 'foo',
+                value: '_bar'
             }
         }
     }
