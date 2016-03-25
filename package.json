@@ -1,7 +1,7 @@
 {
     "name": "append-user-data",
     "version": "0.0.1",
-    "description": "",
+    "description": "Append to User Data for this application",
     "main": "index.js",
     "author": "Run Dexter, Inc",
     "license": "MIT",
